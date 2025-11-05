@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(34, 33, 33);
+}
+
+#parent{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#child{
+  height: 30%;
+  width: 20%;
+  object-fit: cover;
+  /* background-color: aqua; */
+  border: 3px solid black;
+  padding: 20px 15px;
+  margin: 10px;
+  text-align: center;
+}
+#child img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+#child h1 {
+  color: azure;
+  font-size: xl-large;
+  font-weight: 600;
+  margin-top: 3px;
+}
+#child p {
+  color: azure;
+  font-size: large;
+  font-weight: 300;
+  margin-top: 3px;
+}
+#child button {
+  padding: 10px 15px;
+  color: rgb(4, 164, 164);
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 300;
+  margin-top: 3px;
+}
+
+

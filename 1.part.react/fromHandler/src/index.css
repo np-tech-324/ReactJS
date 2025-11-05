@@ -1,0 +1,14 @@
+html,body{
+    background-color: gainsboro;
+    width: 100vh;
+    color: crimson;
+}
+
+button,input {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 20vh;
+    border: 2px solid crimson;
+}
