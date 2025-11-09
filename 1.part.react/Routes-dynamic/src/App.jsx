@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Navbar2 from './components/Navbar2'
 import Home from './pages/Home'
 import About from './pages/About'
 import Products from './pages/Products'
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div className='bg-black text-white h-screen'>
       <Navbar/>
+      <Navbar2/>
       {/* <Products/> */}
       <Routes>
       <Route path='/' element={<Home/>}/>
